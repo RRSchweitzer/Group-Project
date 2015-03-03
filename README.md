@@ -1,15 +1,3 @@
-git workflow
+Fork & pull
 
-git fetch upstream
-
-	    stores these changes in upstream/master
-
-	    You can switch to this branch and look at the changes if you like:
-	
-		      git checkout upstream/master
-
-git merge upstream/master
-
-	    tells git to merge this branch into our working branch (master)
-
-git push origin master
+The fork & pull model lets anyone fork an existing repository and push changes to their personal fork without requiring access be granted to the source repository. The changes must then be pulled into the source repository by the project maintainer. This model reduces the amount of friction for new contributors and is popular with open source projects because it allows people to work independently without upfront coordination.
